@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+:root {
+    --color-amarillo: #F6B628;
+    --color-naranja: #F48B25;
+    --color-fucsia: #D22A5A;
+    --color-morado: #8A2463;
+    --color-blanco: #ffffff;
+    --color-gris-fondo: #f8f9fa;
+    --color-gris-borde: #dee2e6;
+    --color-gris-texto: #6c757d;
+    --color-gris-oscuro: #343a40;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -13,8 +25,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #0d1b2a; /* Fallback oscuro y profesional */
-    color: #333;
+    background-color: var(--color-morado);
+    color: var(--color-gris-oscuro);
 }
 
 .contenedor {
@@ -35,7 +47,7 @@ body {
 }
 
 h2 {
-    color: #1a365d;
+    color: var(--color-morado);
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 28px;
@@ -57,13 +69,13 @@ h2 {
 }
 
 .card {
-    background: white;
+    background: var(--color-blanco);
     border-radius: 12px;
     padding: 30px 20px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--color-gris-borde);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +84,7 @@ h2 {
 .card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 24px rgba(0,0,0,0.15);
-    border-color: #3182ce;
+    border-color: var(--color-fucsia);
 }
 
 .card-icon {
@@ -82,13 +94,13 @@ h2 {
 
 .card h3 {
     margin: 0 0 10px 0;
-    color: #2b6cb0;
+    color: var(--color-morado);
     font-size: 22px;
 }
 
 .card p {
     margin: 0;
-    color: #718096;
+    color: var(--color-gris-texto);
     font-size: 14px;
 }
 
@@ -103,31 +115,32 @@ h2 {
     padding: 16px;
     font-size: 15px;
     font-weight: 600;
-    color: white;
-    background-color: #2b6cb0;
+    color: var(--color-blanco);
+    background-color: var(--color-naranja);
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: all 0.2s;
-    box-shadow: 0 4px 6px rgba(43, 108, 176, 0.2);
+    box-shadow: 0 4px 6px rgba(244, 139, 37, 0.2);
 }
 
 .btn-facultad:hover {
-    background-color: #2c5282;
+    background-color: var(--color-amarillo);
+    color: var(--color-gris-oscuro);
     transform: scale(1.03);
-    box-shadow: 0 6px 10px rgba(43, 108, 176, 0.3);
+    box-shadow: 0 6px 10px rgba(246, 182, 40, 0.3);
 }
 
 /* Pantalla de Ruleta */
 #caja-pregunta {
     margin: 20px auto;
     padding: 50px 30px;
-    background: #f7fafc;
-    border: 2px dashed #cbd5e0;
+    background: var(--color-gris-fondo);
+    border: 2px dashed var(--color-gris-borde);
     border-radius: 15px;
     font-size: 26px;
     font-weight: 600;
-    color: #2d3748;
+    color: var(--color-gris-oscuro);
     line-height: 1.4;
     min-height: 120px;
     display: flex;
@@ -147,37 +160,37 @@ h2 {
     padding: 15px 35px;
     font-size: 18px;
     font-weight: 600;
-    color: white;
-    background-color: #dd6b20;
+    color: var(--color-blanco);
+    background-color: var(--color-fucsia);
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
-    box-shadow: 0 4px 6px rgba(221, 107, 32, 0.2);
+    box-shadow: 0 4px 6px rgba(210, 42, 90, 0.2);
 }
 
 .btn-principal:hover:not(:disabled) { 
-    background-color: #c05621; 
+    background-color: var(--color-morado); 
     transform: translateY(-2px);
 }
 .btn-principal:active:not(:disabled) { transform: translateY(0); }
-.btn-principal:disabled { background-color: #a0aec0; cursor: not-allowed; box-shadow: none; transform: none; }
+.btn-principal:disabled { background-color: var(--color-gris-borde); cursor: not-allowed; box-shadow: none; transform: none; }
 
 .btn-secundario {
     padding: 15px 25px;
     font-size: 16px;
     font-weight: 600;
-    color: #4a5568;
-    background-color: #edf2f7;
-    border: 1px solid #e2e8f0;
+    color: var(--color-gris-oscuro);
+    background-color: var(--color-gris-fondo);
+    border: 1px solid var(--color-gris-borde);
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .btn-secundario:hover:not(:disabled) { 
-    background-color: #e2e8f0; 
-    color: #2d3748;
+    background-color: var(--color-gris-borde); 
+    color: var(--color-morado);
 }
 .btn-secundario:disabled { opacity: 0.6; cursor: not-allowed; }
 

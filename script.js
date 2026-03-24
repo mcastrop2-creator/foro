@@ -276,7 +276,7 @@ const bancoDePreguntas = {
         ]
     },
     "rep1": {
-        nombre: "Representante Docente 1",
+        nombre: "Consejo superior",
         preguntas: [
             "¿Cuáles son las principales propuestas para mejorar el bienestar docente?",
             "¿Cómo planea fomentar la investigación entre los profesores?",
@@ -286,7 +286,7 @@ const bancoDePreguntas = {
         ]
     },
     "rep2": {
-        nombre: "Representante Docente 2",
+        nombre: "Consejo académico",
         preguntas: [
             "¿Qué estrategias propone para fortalecer el vínculo universidad-empresa?",
             "¿Cómo abordará la carga administrativa de los docentes?",
