@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Preguntas Interactivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Menú Principal -->
+    <div id="pantalla-menu-principal" class="contenedor flex-columna" style="display: block;">
+        <h2>Menú Principal</h2>
+        <div class="grid-cards-grandes">
+            <div class="card" onclick="seleccionarCategoria('rectoria', 'menu-principal')">
+                <div class="card-icon">🏛️</div>
+                <h3>Rectoría</h3>
+                <p>Preguntas sobre gestión institucional</p>
+            </div>
+            <div class="card" onclick="mostrarSubmenuDecanaturas()">
+                <div class="card-icon">🎓</div>
+                <h3>Decanaturas</h3>
+                <p>10 Facultades disponibles</p>
+            </div>
+            <div class="card" onclick="mostrarSubmenuRepresentantes()">
+                <div class="card-icon">👥</div>
+                <h3>Representantes Docentes</h3>
+                <p>Escoger Representante</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submenú Decanaturas -->
+    <div id="pantalla-submenu-decanaturas" class="contenedor" style="display: none;">
+        <h2>Selecciona tu Facultad</h2>
+        <div class="grid-botones" id="grid-facultades">
+            <!-- Botones generados dinámicamente -->
+        </div>
+        <button class="btn-secundario mt-20" onclick="volverAlMenuPrincipal()">⬅ Volver al Menú Principal</button>
+    </div>
+
+    <!-- Submenú Representantes -->
+    <div id="pantalla-submenu-representantes" class="contenedor" style="display: none;">
+        <h2>Representantes Docentes</h2>
+        <div class="grid-cards-grandes d-flex-center">
+            <div class="card" onclick="seleccionarCategoria('rep1', 'submenu-representantes')">
+                <div class="card-icon">👨‍🏫</div>
+                <h3>Consejo superior</h3>
+            </div>
+            <div class="card" onclick="seleccionarCategoria('rep2', 'submenu-representantes')">
+                <div class="card-icon">👩‍🏫</div>
+                <h3>Consejo académico</h3>
+            </div>
+        </div>
+        <button class="btn-secundario mt-20" onclick="volverAlMenuPrincipal()">⬅ Volver al Menú Principal</button>
+    </div>
+
+    <!-- Pantalla Ruleta -->
+    <div id="pantalla-ruleta" class="contenedor" style="display: none;">
+        <h2 id="titulo-facultad">Nombre de la Categoría</h2>
+
+        <div id="caja-pregunta">Haz clic en "Girar" para obtener una pregunta...</div>
+
+        <div class="controles-ruleta">
+            <button id="botonVolver" class="btn-secundario" onclick="volverAtras()">⬅ Volver</button>
+            <button id="botonGirar" class="btn-principal" onclick="girarRuleta()">Girar Ruleta 🔄</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
