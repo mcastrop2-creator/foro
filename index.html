@@ -24,10 +24,10 @@
                 <h3>Decanaturas</h3>
                 <p>10 Facultades disponibles</p>
             </div>
-            <div class="card" onclick="mostrarSubmenuRepresentantes()">
+            <div class="card" onclick="seleccionarCategoria('representantes', 'menu-principal')">
                 <div class="card-icon">👥</div>
-                <h3>Representantes Docentes</h3>
-                <p>Escoger Representante</p>
+                <h3>Consejo Superior y Académico</h3>
+                <p>Representación Docente</p>
             </div>
         </div>
     </div>
@@ -41,21 +41,7 @@
         <button class="btn-secundario mt-20" onclick="volverAlMenuPrincipal()">⬅ Volver al Menú Principal</button>
     </div>
 
-    <!-- Submenú Representantes -->
-    <div id="pantalla-submenu-representantes" class="contenedor" style="display: none;">
-        <h2>Representantes Docentes</h2>
-        <div class="grid-cards-grandes d-flex-center">
-            <div class="card" onclick="seleccionarCategoria('rep1', 'submenu-representantes')">
-                <div class="card-icon">👨‍🏫</div>
-                <h3>Consejo superior</h3>
-            </div>
-            <div class="card" onclick="seleccionarCategoria('rep2', 'submenu-representantes')">
-                <div class="card-icon">👩‍🏫</div>
-                <h3>Consejo académico</h3>
-            </div>
-        </div>
-        <button class="btn-secundario mt-20" onclick="volverAlMenuPrincipal()">⬅ Volver al Menú Principal</button>
-    </div>
+
 
     <!-- Pantalla Ruleta -->
     <div id="pantalla-ruleta" class="contenedor" style="display: none;">
