@@ -2,7 +2,7 @@
 
 const preguntasComunesDecanaturas = [
     "Paulo Emilio Romero Flórez, estudiante. ¿Cómo lograremos la integración entre la decanatura y el estamento estudiantil, para trabajar en equipo y conocer sus necesidades?",
-    "¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?",
+    "Estudiante. ¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?",
     "Carlos Eduardo Guerrero Terán, estudiante. ¿Cómo cree que su propia historia de vida y experiencias personales han moldeado su visión y enfoque para liderar la facultad, y cómo cree que esas experiencias lo preparan para abordar los desafíos y oportunidades que enfrenta esta."
 ];
 
@@ -14,8 +14,8 @@ const bancoDePreguntas = {
             "Estudiante de la Facultad de Ciencias Humana. ¿Como tratarán los temas de abuso sexual en la universidad?",
             "Isaac David Diaz Contreras, estudiante de la Facultad de Ciencias Económicas. ¿Cómo planea ampliar el rubro presupuestal destinado a los grupos culturales y centros tutoriales, que actualmente carecen de recursos suficientes, y qué medidas concretas implementará para fomentar una mayor vinculación de los estudiantes en estos procesos culturales y formativos?",
             "Alonso José Marrugo González, Docente de la Facultad de Ciencias Exactas y Naturales. ¿Está usted de acuerdo en descentralizar el presupuesto de la institución, y asignar rubros importantes para ser ejecutados por las facultades y programas académicos y por qué?",
-            "Valentina Sofia Pérez Rojas, estudiante de la Facultad de Ingeniería. Calidad académica. ¿Qué propuestas concretas tiene para fortalecer los laboratorios, la investigación y las oportunidades prácticas para los estudiantes de Ingeniería de Alimentos, desde los primeros semestres, para que podamos desarrollar habilidades que respondan a las necesidades de la industria?",
-            "Juan Gabriel Pérez Díaz, estudiante de Facultad de Ciencias Económicas. Bienestar universitario. ¿ Cómo harán para que las los estudiantes tenga canchas en los centros tutoriales y más espacio de diversión?"
+            "Valentina Sofia Pérez Rojas, estudiante de la Facultad de Ingeniería. ¿Qué propuestas concretas tiene para fortalecer los laboratorios, la investigación y las oportunidades prácticas para los estudiantes de Ingeniería de Alimentos, desde los primeros semestres, para que podamos desarrollar habilidades que respondan a las necesidades de la industria?",
+            "Juan Gabriel Pérez Díaz, estudiante de Facultad de Ciencias Económicas. ¿ Cómo harán para que las los estudiantes tenga canchas en los centros tutoriales y más espacio de diversión?"
         ]
     },
     "economicas": {
@@ -32,12 +32,12 @@ const bancoDePreguntas = {
     "exactas": {
         nombre: "Facultad de Ciencias Exactas y Naturales",
         preguntas: [
-            "Paulo Emilio Romero Flórez, estudiante. ¿Cómo lograremos la integración entre la decanatura y el estamento estudiantil, para trabajar en equipo y conocer sus necesidades?",
+            "Paulo Emilio Romero Flórez, estudiante. El programa de Matemáticas perdió su acreditación de alta calidad, lo cual genera preocupación en la comunidad académica. Desde su perspectiva, ¿Cómo lograremos la integración entre la decanatura y el estamento estudiantil, para trabajar en equipo y conocer sus necesidades?",
             "Carlos Eduardo Guerrero Terán, estudiante. ¿Cómo cree que su propia historia de vida y experiencias personales han moldeado su visión y enfoque para liderar la facultad, y cómo cree que esas experiencias lo preparan para abordar los desafíos y oportunidades que enfrenta esta.",
             "Juan Manuel Rico, estudiante. ¿cuáles fueron las principales fallas que llevaron a esta situación y qué plan estructurado propone para recuperar la acreditación y fortalecer el programa a corto y mediano plazo?",
-            "Alonso José Marrugo González, docente. Gobierno universitario. ¿Está usted de acuerdo en descentralizar el presupuesto de la institución, y asignar rubros importantes para ser ejecutados por las facultades y programas académicos y por qué?",
-            "Investigacion. Sobre Laboratorios ¿Cómo garantiza usted la formación práctica si no hay una partida presupuestal explícita y prioritaria para reactivos, materiales y mantenimiento de equipos de laboratorio desde el primer día?",
-            "¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?"
+            "Alonso José Marrugo González, docente. ¿Está usted de acuerdo en descentralizar el presupuesto de la institución, y asignar rubros importantes para ser ejecutados por las facultades y programas académicos y por qué?",
+            "Estudiante. Sobre Laboratorios: ¿Cómo garantiza usted la formación práctica si no hay una partida presupuestal explícita y prioritaria para reactivos, materiales y mantenimiento de equipos de laboratorio desde el primer día?",
+            "Estudiante de la Facultad de Ciencias Exactas y Naturales. ¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?"
         ]
     },
     "odontologia": {
