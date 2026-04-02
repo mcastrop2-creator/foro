@@ -36,7 +36,7 @@ const bancoDePreguntas = {
             "Carlos Eduardo Guerrero Terán, estudiante. ¿Cómo cree que su propia historia de vida y experiencias personales han moldeado su visión y enfoque para liderar la facultad, y cómo cree que esas experiencias lo preparan para abordar los desafíos y oportunidades que enfrenta esta.",
             "Juan Manuel Rico, estudiante. ¿cuáles fueron las principales fallas que llevaron a esta situación y qué plan estructurado propone para recuperar la acreditación y fortalecer el programa a corto y mediano plazo?",
             "Alonso José Marrugo González, docente. Gobierno universitario. ¿Está usted de acuerdo en descentralizar el presupuesto de la institución, y asignar rubros importantes para ser ejecutados por las facultades y programas académicos y por qué?",
-            "¿Cómo garantiza usted la formación práctica si no hay una partida presupuestal explícita y prioritaria para reactivos, materiales y mantenimiento de equipos de laboratorio desde el primer día?",
+            "Investigacion. Sobre Laboratorios ¿Cómo garantiza usted la formación práctica si no hay una partida presupuestal explícita y prioritaria para reactivos, materiales y mantenimiento de equipos de laboratorio desde el primer día?",
             "¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?"
         ]
     },
