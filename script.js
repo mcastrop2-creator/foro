@@ -2,7 +2,7 @@
 
 const preguntasComunesDecanaturas = [
     "Paulo Emilio Romero Flórez, estudiante. ¿Cómo lograremos la integración entre la decanatura y el estamento estudiantil, para trabajar en equipo y conocer sus necesidades?",
-    "Estudiante. Gobierno universitario. Sobre Internacionalización: Su programa habla de \"apoyar la movilidad\" de forma abstracta. Si usted durante toda experiencia laboral no ha dirigido ni tiene grupo de investigación, ¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?",
+    "¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?",
     "Carlos Eduardo Guerrero Terán, estudiante. ¿Cómo cree que su propia historia de vida y experiencias personales han moldeado su visión y enfoque para liderar la facultad, y cómo cree que esas experiencias lo preparan para abordar los desafíos y oportunidades que enfrenta esta."
 ];
 
@@ -34,10 +34,10 @@ const bancoDePreguntas = {
         preguntas: [
             "Paulo Emilio Romero Flórez, estudiante. ¿Cómo lograremos la integración entre la decanatura y el estamento estudiantil, para trabajar en equipo y conocer sus necesidades?",
             "Carlos Eduardo Guerrero Terán, estudiante. ¿Cómo cree que su propia historia de vida y experiencias personales han moldeado su visión y enfoque para liderar la facultad, y cómo cree que esas experiencias lo preparan para abordar los desafíos y oportunidades que enfrenta esta.",
-            "Juan Manuel Rico, estudiante. Calidad académica. El programa de Matemáticas perdió su acreditación de alta calidad, lo cual genera preocupación en la comunidad académica. Desde su perspectiva, ¿cuáles fueron las principales fallas que llevaron a esta situación y qué plan estructurado propone para recuperar la acreditación y fortalecer el programa a corto y mediano plazo?",
+            "Juan Manuel Rico, estudiante. ¿cuáles fueron las principales fallas que llevaron a esta situación y qué plan estructurado propone para recuperar la acreditación y fortalecer el programa a corto y mediano plazo?",
             "Alonso José Marrugo González, docente. Gobierno universitario. ¿Está usted de acuerdo en descentralizar el presupuesto de la institución, y asignar rubros importantes para ser ejecutados por las facultades y programas académicos y por qué?",
-            "Estudiante. Calidad académica., Investigación. Sobre Laboratorios: Doctora Vásquez, su propuesta de gestión se centra en la compra de material bibliográfico y suscripciones a journals. En una facultad de Ciencias Exactas, ¿cómo garantiza usted la formación práctica si no hay una partida presupuestal explícita y prioritaria para reactivos, materiales y mantenimiento de equipos de laboratorio desde el primer día?",
-            "Estudiante de la Facultad de Ciencias Exactas y Naturales. Gobierno universitario. Sobre Internacionalización: Su programa habla de \"apoyar la movilidad\" de forma abstracta. Si usted durante toda experiencia laboral no ha dirigido ni tiene grupo de investigación, ¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?"
+            "¿Cómo garantiza usted la formación práctica si no hay una partida presupuestal explícita y prioritaria para reactivos, materiales y mantenimiento de equipos de laboratorio desde el primer día?",
+            "¿cómo pretende general herramientas modernas para garantizar una internacionalización democratizada y palpable para los estudiantes, no solo para unos pocos?"
         ]
     },
     "odontologia": {
@@ -71,7 +71,7 @@ const bancoDePreguntas = {
     "representantes": {
         nombre: "Consejo Superior y Consejo Académico",
         preguntas: [
-            "Alonso José Marrugo González, docente de la Facultad de Ciencias Exactas y Naturales. Gobierno universitario. ¿Está usted de acuerdo en descentralizar el presupuesto de la institución, y asignar rubros importantes para ser ejecutados por las facultades y programas académicos y por qué?"
+            "Alonso José Marrugo González, docente de la Facultad de Ciencias Exactas y Naturales. ¿Está usted de acuerdo en descentralizar el presupuesto de la institución, y asignar rubros importantes para ser ejecutados por las facultades y programas académicos y por qué?"
         ]
     }
 };
